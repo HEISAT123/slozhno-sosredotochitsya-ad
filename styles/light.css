@@ -11,7 +11,7 @@
   --focus_color: #FFC2E6;
   --background-color: #FFF1F7;
   --text_background-color: #FF8DCB;
-  --header_background-image: ../images/cover-image-light.png;
+  --header_background-image: url('../images/cover-image-light.png');
   --rec-visible: none;
   --header__theme_menu-button_hover-color: #32312D66;
 }
@@ -24,8 +24,8 @@
     --focus_color: #FFC2E6;
     --background-color: #FFF1F7;
     --text_background-color: #FF8DCB;
-    --header_background-image: ../images/cover-image-light.png;
-    --rec-visible: none;  
+    --header_background-image: url('../images/cover-image-light.png');
+    --rec-visible: none;
     --header__theme_menu-button_hover-color: #32312D66;
   }
 }

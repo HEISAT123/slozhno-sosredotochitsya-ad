@@ -9,7 +9,7 @@
   --focus_color: #DB00FF;
   --background-color: #000028;
   --text_background-color: #FF0070;
-  --header_background-image: '../images/cover-image-dark.png';
+  --header_background-image: url('../images/cover-image-dark.png');
   --rec-visible: block;
   --header__theme_menu-button_hover-color: #FF007066;
 }
