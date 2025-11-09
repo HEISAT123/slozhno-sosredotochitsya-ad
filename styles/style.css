@@ -333,7 +333,7 @@ p {
   }
 
   .main {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
   }
 
   .main__questions {
@@ -352,7 +352,7 @@ p {
   }
 
   .main__question:nth-child(2) .main__question-title {
-    width: 33.3333333334%;
+    width: 32.5%;
   }
 
   .main__pictures {
@@ -366,7 +366,7 @@ p {
   .pictures {
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 25.869799% 31.1655405% 42.9646605%;
+    grid-template-rows: 0.5fr 1fr auto;
   }
 
   .picture:nth-child(1) {
