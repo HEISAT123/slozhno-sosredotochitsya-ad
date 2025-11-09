@@ -86,7 +86,7 @@ p {
   line-height: 83%;
   color: var(--focus_color);
   margin-left: 10px;
-  text-shadow: 4px 4px var(--text_background-color); 
+  text-shadow: 4px 4px var(--text_background-color);
 }
 
 .header__textfield {
@@ -165,7 +165,7 @@ p {
 .main__questions {
   height: min-content;
   margin: 0 10px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
  
 .main__question {
@@ -269,7 +269,7 @@ p {
   color: var(--focus_color);
   font-weight: 700;
   font-style: Bold;
-  font-size: 116px;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   text-shadow: 2px 2px #FF0070;
 }
@@ -338,11 +338,11 @@ p {
 
   .main__questions {
     margin: 0 20px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 
   .main__question {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 
   .main__question:not(:nth-child(2)) {
@@ -397,6 +397,10 @@ p {
   .footer::after {
     bottom: 20px;
     left: 20px;
+  }
+
+  .footer__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
 
